@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css?family=Concert+One");
+html {
+  margin: 0;
+  background-color: #12cbc4;
+}
+
+body {
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  background-color: #12cbc4;
+}
+
+.desktop-nav ul {
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 400px;
+  width: 80%;
+}
+
+.desktop-nav ul li {
+  display: inline-block;
+  text-align: center;
+  font-size: 24px;
+}
+
+.desktop-nav ul li a {
+  display: block;
+  color: #fff;
+  font-family: "Concert One", cursive;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  max-width: 900px;
+  width: 80%;
+  margin: auto;
+  padding: 0;
+}
+
+.card {
+  width: 100%;
+  position: relative;
+  display: block;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+@media (min-width: 30rem) {
+  .card {
+    width: 50%;
+  }
+}
+
+@media (min-width: 40rem) {
+  .card {
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 60rem) {
+  .card {
+    width: 25%;
+  }
+}
+
+.card-wrap {
+  padding-top: 90%;
+}
+
+.card-inner {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  right: 5%;
+  bottom: 5%;
+}
+
+.card-inner img {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 60%;
+  border-radius: 8px;
+  background-color: white;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.mainCard {
+  background-color: #1289a7;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 100%;
+  margin: auto;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 1px 12px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1px 12px rgba(0, 0, 0, 0.15);
+}
+
+.titleCard {
+  position: absolute;
+  background-color: #fff;
+  bottom: 5%;
+  right: 8%;
+  left: 8%;
+  height: 25%;
+  margin: auto;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 1px 2px rgba(255, 255, 255, 0.1);
+          box-shadow: 0 1px 2px rgba(255, 255, 255, 0.1);
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  overflow: hidden;
+}
+
+.titleCard .text {
+  color: #fff;
+  text-align: center;
+  margin: 3px 4px;
+  font-size: 1em;
+  line-height: 1.2em;
+  word-wrap: break-word;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+@media (min-width: rem) {
+  .titleCard .text {
+    font-size: 0.6em;
+    line-height: 1.2em;
+  }
+}
+
+@media (min-width: 40rem) {
+  .titleCard .text {
+    font-size: 0.8em;
+    line-height: 1.2em;
+  }
+}
+
+@media (min-width: 60rem) {
+  .titleCard .text {
+    font-size: 0.9em;
+    line-height: 1.2em;
+  }
+}
+
+.titleCard .text strong {
+  color: #383838cc;
+}
+
+.titleCard::after {
+  content: "";
+  border-radius: 5px;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: 0 3px 11px rgba(255, 255, 255, 0.3);
+          box-shadow: 0 3px 11px rgba(255, 255, 255, 0.3);
+  opacity: 0;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.titleCard:hover {
+  -webkit-transform: scale(1.03, 1.03);
+  transform: scale(1.03, 1.03);
+}
+
+.titleCard:hover::after {
+  opacity: 1;
+}
+
+.ct {
+  text-align: center;
+}
+
+#new-entry {
+  margin-top: 20px;
+}
+
+span {
+  font-family: "Concert One", cursive;
+  font-size: 18px;
+  color: #fff;
+}
+
+.cat-name {
+  background-color: #c4e538;
+  display: inline-block;
+  overflow: hidden;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  height: 22px;
+  line-height: 22px;
+  margin: 0;
+  padding: 0 10px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+/*# sourceMappingURL=style.css.map */

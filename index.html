@@ -2,74 +2,273 @@
 <html lang="ja">
 
 <head>
-  <title>shotr.me</title>
+  <title>Shotr.me</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 
-  <link rel="stylesheet" href="design/photon.css">
-  <link rel="stylesheet" href="design/flex-layout-attribute.css">
-  <link rel="stylesheet" href="design/design.css">
+  <!-- <link rel="stylesheet" href="./design/bootstrap-reboot.css"> -->
+  <link rel="stylesheet" href="./design/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
+  <link rel="stylesheet" href="./design/github-markdown.css">
+  <link rel="stylesheet" href="./design/prism.css">
+  <link rel="stylesheet" href="./design/style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-9ralMzdK1QYsk4yBY680hmsb4/hJ98xK3w0TIaJ3ll4POWpWUYaA2bRjGGujGT8w"
+    crossorigin="anonymous">
 </head>
 
 <body>
-  <div class="center">
-    <div layout="columns justify-justify" style="height: 100%; width: 100%;">
-      <header style="height: 30px!;" class="toolbar toolbar-header"></header>
-      <div self="size-x4" style="background-color: #ececec; border-bottom: 1px solid #c2c0c2;">
-        <ul class="scrollView">
-          <li class="scrollCell">
+  <header class="">
+    <div class="inner">
+      <div class="navigation">
 
-            <div class="card">
-              <img class="img">
-              <div class="container">
-                <b>John Doe</b>
-                <p class="docm">あれこれそれあれこれそれあれこれそれあれこれそれあれこれそれ</p>
-              </div>
-            </div>
+        <!-- <div class="logo">
+          <a href="/">
+            <img src="./assets/logo.png" alt="Shotr.me">
+          </a>
+        </div> -->
 
-          </li>
-          <li class="scrollCell">
+        <nav class="desktop-nav">
+          <ul>
+            <li>
+              <a href="/about">About</a>
+            </li>
+            <li>
+              <a href="/gallery">GALLERY</a>
+            </li>
+            <li>
+              <a href="/blog">BLOG</a>
+            </li>
+            <li>
+              <a href="/contact">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
 
-              <div class="card">
-                  <img class="img">
-                  <div class="container">
-                    <b>John Doe</b>
-                    <p class="docm">あれこれそれあれこれそれあれこれそれあれこれそれあれこれそれ</p>
-                  </div>
-                </div>
-
-          </li>
-          <li class="scrollCell">
-
-              <div class="card">
-                  <img class="img">
-                  <div class="container">
-                    <b>John Doe</b>
-                    <p class="docm">あれこれそれあれこれそれあれこれそれあれこれそれあれこれそれ</p>
-                  </div>
-                </div>
-
-          </li>
-          <li class="scrollCell">
-
-              <div class="card">
-                  <img class="img">
-                  <div class="container">
-                    <b>John Doe</b>
-                    <p class="docm">あれこれそれあれこれそれあれこれそれあれこれそれあれこれそれ</p>
-                  </div>
-                </div>
-
-          </li>
-        </ul>
       </div>
-      <div self="size-x2" style="background-color: #e5e5e5; border-bottom: 1px solid #c2c0c2;"></div>
-      <div self="size-x2" style="background-color: #ececec; border-bottom: 1px solid #c2c0c2;"></div>
-      <div self="size-x1" style="background-color: #e5e5e5"></div>
+    </div>
+  </header>
+
+  <body>
+
+    <div id="new-entry" class="ct">
+      <span>
+        <i class="fas fa-desktop-alt" aria-hidden="true"></i> Programming
+        <i class="fas fa-desktop-alt" aria-hidden="true"></i>
+      </span>
     </div>
 
+    <div class="cards">
+      <div class="card">
+        <div class="card-wrap">
+          <div class="card-inner">
+            <div class="mainCard"></div>
+            <img src="https://shotr.me/wp-content/uploads/2018/08/BLOKK_Cover-520x300.png" alt="プロトタイピング用フォント「BLOKK 」の紹介。">
+            <a class="dfont cat-name catid5" href="#">Design</a>
+            <div class="titleCard">
+              <div class="text">
+                <strong>プロトタイピング用フォント「BLOKK 」の紹介。</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-wrap">
+          <div class="card-inner">
+            <div class="mainCard"></div>
+            <img src="https://shotr.me/wp-content/uploads/2018/07/Ubuntu18.04@3x-1-520x300.png" alt="Ubuntu18.04 にWordPressをインストールする。">
+            <a class="dfont cat-name catid5" href="#">Ubuntu</a>
+            <div class="titleCard">
+              <div class="text">
+                <strong>Ubuntu18.04 にWordPressをインストールする。</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-wrap">
+          <div class="card-inner">
+            <div class="mainCard"></div>
+            <img src="https://shotr.me/wp-content/uploads/2018/08/First-Blog-520x300.png" alt="あ、またブログはじめちゃいました。">
+            <a class="dfont cat-name catid5" href="#">個人的ニュース</a>
+            <div class="titleCard">
+              <div class="text">
+                <strong>あ、またブログはじめちゃいました。</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-wrap">
+          <div class="card-inner">
+            <div class="mainCard"></div>
+            <img src="https://shotr.me/wp-content/uploads/2018/04/0f67ce95fec6b87d01a3a0959b2131ea-520x300.png" alt="StoryBoardが必要では無い理由">
+            <a class="dfont cat-name catid5" href="#">Swift</a>
+            <div class="titleCard">
+              <div class="text">
+                <strong>StoryBoardが必要では無い理由</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-wrap">
+          <div class="card-inner">
+            <div class="mainCard"></div>
+            <img src="https://shotr.me/wp-content/uploads/2017/12/og-520x300.png" alt="iPhoneX対応のiOSアプリを作る上で知っておくべきコト">
+            <a class="dfont cat-name catid5" href="#">iOS</a>
+            <div class="titleCard">
+              <div class="text">
+                <strong>iPhoneX対応のiOSアプリを作る上で知っておくべきコト</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-wrap">
+          <div class="card-inner">
+            <div class="mainCard"></div>
+            <img src="https://shotr.me/wp-content/uploads/2017/11/cocoapods-520x300.jpg" alt="iOSアプリの開発で便利なCocoaPods Library – Swift 4編">
+            <a class="dfont cat-name catid5" href="#">Mac</a>
+            <div class="titleCard">
+              <div class="text">
+                <strong>iOSアプリの開発で便利なCocoaPods Library – Swift 4編</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-wrap">
+          <div class="card-inner">
+            <div class="mainCard"></div>
+            <img src="https://shotr.me/wp-content/uploads/2017/11/dracula1-379x300.png" alt="Dracula Themeの紹介">
+            <a class="dfont cat-name catid5" href="#">Mac</a>
+            <div class="titleCard">
+              <div class="text">
+                <strong>Dracula Themeの紹介</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  </div>
+    <div id="new-entry" class="ct">
+      <span>
+        <i class="fas fa-pen-fancy" aria-hidden="true"></i> UIDesign
+        <i class="fas fa-pen-fancy" aria-hidden="true"></i>
+      </span>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-wrap">
+          <div class="card-inner">
+            <div class="mainCard"></div>
+            <img src="https://shotr.me/wp-content/uploads/2018/08/BLOKK_Cover-520x300.png" alt="プロトタイピング用フォント「BLOKK 」の紹介。">
+            <a class="dfont cat-name catid5" href="#">Design</a>
+            <div class="titleCard">
+              <div class="text">
+                <strong>プロトタイピング用フォント「BLOKK 」の紹介。</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-wrap">
+          <div class="card-inner">
+            <div class="mainCard"></div>
+            <img src="https://shotr.me/wp-content/uploads/2018/07/Ubuntu18.04@3x-1-520x300.png" alt="Ubuntu18.04 にWordPressをインストールする。">
+            <a class="dfont cat-name catid5" href="#">Ubuntu</a>
+            <div class="titleCard">
+              <div class="text">
+                <strong>Ubuntu18.04 にWordPressをインストールする。</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-wrap">
+          <div class="card-inner">
+            <div class="mainCard"></div>
+            <img src="https://shotr.me/wp-content/uploads/2018/08/First-Blog-520x300.png" alt="あ、またブログはじめちゃいました。">
+            <a class="dfont cat-name catid5" href="#">個人的ニュース</a>
+            <div class="titleCard">
+              <div class="text">
+                <strong>あ、またブログはじめちゃいました。</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-wrap">
+          <div class="card-inner">
+            <div class="mainCard"></div>
+            <img src="https://shotr.me/wp-content/uploads/2018/04/0f67ce95fec6b87d01a3a0959b2131ea-520x300.png" alt="StoryBoardが必要では無い理由">
+            <a class="dfont cat-name catid5" href="#">Swift</a>
+            <div class="titleCard">
+              <div class="text">
+                <strong>StoryBoardが必要では無い理由</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-wrap">
+          <div class="card-inner">
+            <div class="mainCard"></div>
+            <img src="https://shotr.me/wp-content/uploads/2017/12/og-520x300.png" alt="iPhoneX対応のiOSアプリを作る上で知っておくべきコト">
+            <a class="dfont cat-name catid5" href="#">iOS</a>
+            <div class="titleCard">
+              <div class="text">
+                <strong>iPhoneX対応のiOSアプリを作る上で知っておくべきコト</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-wrap">
+          <div class="card-inner">
+            <div class="mainCard"></div>
+            <img src="https://shotr.me/wp-content/uploads/2017/11/cocoapods-520x300.jpg" alt="iOSアプリの開発で便利なCocoaPods Library – Swift 4編">
+            <a class="dfont cat-name catid5" href="#">Mac</a>
+            <div class="titleCard">
+              <div class="text">
+                <strong>iOSアプリの開発で便利なCocoaPods Library – Swift 4編</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-wrap">
+          <div class="card-inner">
+            <div class="mainCard"></div>
+            <img src="https://shotr.me/wp-content/uploads/2017/11/dracula1-379x300.png" alt="Dracula Themeの紹介">
+            <a class="dfont cat-name catid5" href="#">Mac</a>
+            <div class="titleCard">
+              <div class="text">
+                <strong>Dracula Themeの紹介</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script type="text/javascript" src="./design/prism.js"></script>
 </body>
 
 </html>
